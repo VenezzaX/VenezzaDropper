@@ -10,7 +10,6 @@ for %%F in ("%kitFolder%\*.bmp") do (
     set "wallpaperFile=%%~F"
     goto :found
 )
-exit /b
 
 :found
 :: Set wallpaper using PowerShell (works for BMP)
@@ -18,5 +17,3 @@ powershell -Command "Add-Type -TypeDefinition \"using System; using System.Runti
 
 :: Force Windows to apply changes
 rundll32.exe user32.dll, UpdatePerUserSystemParameters >nul 2>&1
-
-exit
