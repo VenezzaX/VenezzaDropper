@@ -2,7 +2,7 @@
 setlocal
 
 :: Set the path to the INSTALLATION KIT folder on Desktop
-set "kitFolder=%USERPROFILE%\Desktop\INSTALLATION KIT"
+set "kitFolder=%USERPROFILE%\Desktop\INSTALLATION KIT\Misc"
 
 :: Search for the first .bmp file in the folder
 set "wallpaperFile="
