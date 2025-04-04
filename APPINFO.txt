@@ -1,0 +1,81 @@
+Bloxstrap-v2.8.6.exe - Alternative launcher for Roblox with enhanced customization options
+
+BraveInstaller.exe - Privacy-focused web browser with built-in ad-blocker
+
+OperaGX.exe - Gaming-oriented browser with RAM/CPU limiters
+
+SteamSetup.exe - Digital game distribution platform (PC gaming store)
+
+EpicInstaller.msi - Epic Games Store client for game purchases
+
+SpotifySetup.exe - Music streaming service application
+
+MSIAfterburner.zip - GPU overclocking and monitoring tool
+
+VSCode.exe - Lightweight code editor by Microsoft
+
+VSCommunity.exe - Full-featured IDE for software development
+
+NotepadPlus.exe - Advanced text editor with syntax highlighting
+
+Voicemod.exe - Real-time voice changer for streaming/gaming
+
+ahk-install.exe - AutoHotkey scripting tool for automation
+
+Lunar-Client-Installer.exe - Optimized Minecraft client with mods
+
+Modrinth_App_0.9.3_x64-setup.exe - Minecraft mod manager
+
+CurseForge-Installer.exe - Minecraft mod/modpack installer
+
+MinecraftInstaller.exe - Official Minecraft game launcher
+
+scrcpy-win64.zip - Android screen mirroring tool (no root)
+
+GitHubDesktopSetup-x64.exe - GUI for Git version control
+
+MedalSetup.exe - Game clip recorder and sharing platform
+
+NVIDIA_app_beta_v11.0.3.213.exe - GeForce Now cloud gaming service
+
+DiscordSetup.exe - Voice/chat communication platform
+
+WhatsApp-Installer.exe - Desktop client for WhatsApp messaging
+
+cpu-z_2.15-en.exe - System hardware information tool
+
+lghub_installer.exe - Logitech gaming peripherals configuration
+
+jre-8u441-windows-x64.exe - Java Runtime Environment
+
+vlc-3.0.21-win64.exe - Versatile media player
+
+Audacity_Installer_via_MuseHub.exe - Audio editing/recording software
+
+OBS-Studio-31.0.3-Windows-Installer.exe - Video recording/streaming
+
+winrar-x64-710br.exe - Archive manager (RAR/ZIP)
+
+7z2409-x64.exe - Open-source file archiver
+
+paint.net.5.1.6.portable.x64.zip - Image editing software
+
+Autoruns.zip - Windows startup program manager
+
+ProcessMonitor.zip - Advanced system monitoring tool
+
+ProcessExplorer.zip - Task Manager alternative
+
+Wireshark-4.4.5-x64.exe - Network protocol analyzer
+
+portmaster-installer.exe - Network monitoring/security
+
+TranslucentTB-portable-x64.zip - Taskbar transparency tool
+
+Rainmeter-4.5.21.exe - Desktop customization/widget engine
+
+Badlion-Client.exe - Minecraft client with built-in mods
+
+AngryIPScanner.exe - Lightweight network scanner for IP addresses and ports (fast LAN detection)
+
+Parsec.exe - Low-latency remote desktop tool optimized for gaming/streaming (peer-to-peer connection)
