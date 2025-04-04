@@ -1,0 +1,66 @@
+☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+Browsers:
+1. BraveInstaller.exe - Privacy-focused browser with built-in ad-blocker
+2. OperaGX.exe - Gaming browser with performance controls
+
+Game Launchers:
+3. SteamSetup.exe - PC gaming platform/store
+4. EpicInstaller.msi - Epic Games store client
+5. NVIDIA_app_beta_v11.0.3.213.exe - GeForce Now cloud gaming
+
+Game Utilities:
+6. Bloxstrap-v2.8.6.exe - Enhanced Roblox launcher
+7. MSIAfterburner.zip - GPU overclocking tool
+8. lghub_installer.exe - Logitech gaming peripherals config
+
+Media:
+9. SpotifySetup.exe - Music streaming service
+10. vlc-3.0.21-win64.exe - Universal media player
+11. Audacity_Installer_via_MuseHub.exe - Audio editing software
+12. OBS-Studio-31.0.3-Windows-Installer.exe - Streaming/recording
+
+Development:
+13. VSCode.exe - Lightweight code editor
+14. VSCommunity.exe - Full development environment
+15. NotepadPlus.exe - Advanced text editor
+16. GitHubDesktopSetup-x64.exe - Git GUI client
+17. jre-8u441-windows-x64.exe - Java Runtime
+
+Minecraft Clients:
+18. Lunar-Client-Installer.exe - Optimized Minecraft client
+19. Badlion-Client.exe - Minecraft with built-in mods
+20. Modrinth_App_0.9.3_x64-setup.exe - Mod manager
+21. CurseForge-Installer.exe - Mod/modpack installer
+22. MinecraftInstaller.exe - Official launcher
+
+Communication:
+23. DiscordSetup.exe - Voice/chat platform
+24. WhatsApp-Installer.exe - Desktop messaging
+25. Voicemod.exe - Voice changing software
+
+System Tools:
+26. cpu-z_2.15-en.exe - Hardware information
+27. Autoruns.zip - Startup manager
+28. ProcessMonitor.zip - System monitoring
+29. ProcessExplorer.zip - Advanced Task Manager
+30. Wireshark-4.4.5-x64.exe - Network analyzer
+31. portmaster-installer.exe - Network security
+32. AngryIPScanner.exe - Lightweight network scanner for IP addresses and ports (fast LAN detection)
+33. Parsec.exe - Low-latency remote desktop tool optimized for gaming/streaming (peer-to-peer connection)
+
+Compression:
+34. winrar-x64-710br.exe - RAR/ZIP archiver
+35. 7z2409-x64.exe - Open-source file archiver
+
+Desktop Customization:
+36. TranslucentTB-portable-x64.zip - Taskbar effects
+37. Rainmeter-4.5.21.exe - Desktop widgets
+
+Utilities:
+38. ahk-install.exe - Automation scripting
+39. paint.net.5.1.6.portable.x64.zip - Image editor
+40. scrcpy-win64.zip - Android screen mirroring
+
+ClippingTools:
+41. MedalSetup.exe - Game clip recorder
+☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
