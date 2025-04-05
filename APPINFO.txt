@@ -79,3 +79,5 @@ Badlion-Client.exe - Minecraft client with built-in mods
 AngryIPScanner.exe - Lightweight network scanner for IP addresses and ports (fast LAN detection)
 
 Parsec.exe - Low-latency remote desktop tool optimized for gaming/streaming (peer-to-peer connection)
+
+IriunWebcam-2.8.10 Turn your phone into an webcam
