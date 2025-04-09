@@ -81,3 +81,13 @@ AngryIPScanner.exe - Lightweight network scanner for IP addresses and ports (fas
 Parsec.exe - Low-latency remote desktop tool optimized for gaming/streaming (peer-to-peer connection)
 
 IriunWebcam-2.8.10 Turn your phone into an webcam
+
+GPU-Z.exe - Lightweight GPU information utility
+
+Rufus.exe - USB bootable drive creator
+
+HWMONITOR.zip - Hardware monitoring suite
+
+O&O_ShutUp10.exe - Windows 10/11 privacy tool
+
+PowerToysSetup.exe - Microsoft system utilities
