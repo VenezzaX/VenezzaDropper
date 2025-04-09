@@ -47,23 +47,28 @@ System Tools:
 31. portmaster-installer.exe - Network security
 32. AngryIPScanner.exe - Lightweight network scanner for IP addresses and ports (fast LAN detection)
 33. Parsec.exe - Low-latency remote desktop tool optimized for gaming/streaming (peer-to-peer connection)
+34. GPU-Z.exe - Lightweight GPU information utility
+35. Rufus.exe - USB bootable drive creator
+36. HWMONITOR.zip - Hardware monitoring suite
 
 Compression:
-34. winrar-x64-710br.exe - RAR/ZIP archiver
-35. 7z2409-x64.exe - Open-source file archiver
+38. winrar-x64-710br.exe - RAR/ZIP archiver
+39. 7z2409-x64.exe - Open-source file archiver
 
 Desktop Customization:
-36. TranslucentTB-portable-x64.zip - Taskbar effects
-37. Rainmeter-4.5.21.exe - Desktop widgets
+40. TranslucentTB-portable-x64.zip - Taskbar effects
+41. Rainmeter-4.5.21.exe - Desktop widgets
 
 Utilities:
-38. ahk-install.exe - Automation scripting
-39. paint.net.5.1.6.portable.x64.zip - Image editor
-40. scrcpy-win64.zip - Android screen mirroring
+42. ahk-install.exe - Automation scripting
+43. paint.net.5.1.6.portable.x64.zip - Image editor
+44. scrcpy-win64.zip - Android screen mirroring
+45. O&O_ShutUp10.exe - Windows 10/11 privacy tool
+46. PowerToysSetup.exe - Microsoft system utilities
 
 ClippingTools:
-41. MedalSetup.exe - Game clip recorder
+47. MedalSetup.exe - Game clip recorder
 
 WEBCAM:
-42 IriunWebcam-2.8.10 Turn your phone into an webcam
+48. IriunWebcam-2.8.10 Turn your phone into an webcam
 ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
