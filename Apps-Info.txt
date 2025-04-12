@@ -69,4 +69,7 @@ Utilities:
 
 ClippingTools:
 47. MedalSetup.exe - Game clip recorder
+
+Recently Added:
+48. Ventoy - Free utility to create systems inside of usb flashdrives
 ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
