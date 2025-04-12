@@ -91,3 +91,5 @@ HWMONITOR.zip - Hardware monitoring suite
 O&O_ShutUp10.exe - Windows 10/11 privacy tool
 
 PowerToysSetup.exe - Microsoft system utilities
+
+Ventoy - Free utility to create systems inside of usb flashdrives
