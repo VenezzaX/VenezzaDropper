@@ -1,0 +1,2059 @@
+--//====================================================\\-
+--||            
+--||             
+--||              ISLE 10 NEVER LOSE TEAM  
+--||
+--||
+--\\====================================================//--
+
+repeat wait() until game.Players.LocalPlayer
+game:GetService("Players").LocalPlayer.PlayerGui:WaitForChild("Chat")
+local chatFrame = game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame
+chatFrame.ChatChannelParentFrame.Visible=true
+chatFrame.ChatBarParentFrame.Position = chatFrame.ChatChannelParentFrame.Position+UDim2.new(UDim.new(),chatFrame.ChatChannelParentFrame.Size.Y)
+
+-- MENU
+
+local Isle = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local MainTitle = Instance.new("TextLabel")
+local OutlineMainFrame = Instance.new("ImageLabel")
+local TITULOBOTAO = Instance.new("TextLabel")
+local sub1 = Instance.new("Frame")
+local OutlineSub1 = Instance.new("ImageLabel")
+local ARMADURA = Instance.new("TextLabel")
+local PYLON = Instance.new("TextLabel")
+local PARASITA2 = Instance.new("TextButton")
+local PARASITA1 = Instance.new("TextButton")
+local ESGOTO = Instance.new("TextButton")
+local PORCO = Instance.new("TextButton")
+local MINA = Instance.new("TextButton")
+local PARASITA3 = Instance.new("TextButton")
+local Symbol = Instance.new("ImageButton")
+local ACTIVATOR = Instance.new("ImageButton")
+local ACTIVATOR2 = Instance.new("ImageButton")
+local Locations = Instance.new("ImageButton")
+local Countrys = Instance.new("ImageButton")
+local Places = Instance.new("ScrollingFrame")
+local category = Instance.new("Frame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local layout_button = Instance.new("TextButton")
+local title = Instance.new("TextLabel")
+local UIListLayout = Instance.new("UIListLayout")
+local APECITY = Instance.new("TextButton")
+local SHIELDS = Instance.new("TextLabel")
+local VEST = Instance.new("TextButton")
+local SCOOTER = Instance.new("TextLabel")
+local SQUID = Instance.new("TextButton")
+local SHIELDPACK = Instance.new("TextLabel")
+local SHIELDPACK_2 = Instance.new("TextButton")
+local BWR = Instance.new("ImageButton")
+local sub2 = Instance.new("Frame")
+local Infos = Instance.new("TextLabel")
+local Speed = Instance.new("TextLabel")
+local Info = Instance.new("TextLabel")
+local Coordinates = Instance.new("TextLabel")
+local sub3 = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+Isle.Name = "Isle"
+Isle.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Isle.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Isle
+MainFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+MainFrame.BackgroundTransparency = 0.150
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.140890688, -3, 0.354192704, -139)
+MainFrame.Size = UDim2.new(0, 728, 0, 483)
+
+MainTitle.Name = "MainTitle"
+MainTitle.Parent = MainFrame
+MainTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainTitle.BackgroundTransparency = 1.000
+MainTitle.BorderColor3 = Color3.fromRGB(45, 45, 45)
+MainTitle.BorderSizePixel = 0
+MainTitle.Position = UDim2.new(0.373299748, 0, 0, 0)
+MainTitle.Size = UDim2.new(0, 217, 0, 30)
+MainTitle.Font = Enum.Font.Merriweather
+MainTitle.Text = "ISLE 10 SECRET SERVICE"
+MainTitle.TextColor3 = Color3.fromRGB(22, 150, 62)
+MainTitle.TextSize = 30.000
+
+OutlineMainFrame.Name = "OutlineMainFrame"
+OutlineMainFrame.Parent = MainFrame
+OutlineMainFrame.BackgroundColor3 = Color3.fromRGB(168, 168, 168)
+OutlineMainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OutlineMainFrame.BorderSizePixel = 0
+OutlineMainFrame.Position = UDim2.new(0, 0, 0.0631229207, 0)
+OutlineMainFrame.Size = UDim2.new(0, 728, 0, 8)
+OutlineMainFrame.Image = "rbxassetid://1"
+OutlineMainFrame.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+TITULOBOTAO.Name = "TITULO BOTAO"
+TITULOBOTAO.Parent = MainFrame
+TITULOBOTAO.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TITULOBOTAO.BackgroundTransparency = 1.000
+TITULOBOTAO.BorderColor3 = Color3.fromRGB(45, 45, 45)
+TITULOBOTAO.BorderSizePixel = 0
+TITULOBOTAO.Position = UDim2.new(0.00961538497, 0, 0.116327196, 0)
+TITULOBOTAO.Size = UDim2.new(0, 85, 0, 19)
+TITULOBOTAO.Font = Enum.Font.Merriweather
+TITULOBOTAO.Text = "BOTÕES"
+TITULOBOTAO.TextColor3 = Color3.fromRGB(70, 221, 24)
+TITULOBOTAO.TextSize = 25.000
+
+sub1.Name = "sub1"
+sub1.Parent = MainFrame
+sub1.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+sub1.BackgroundTransparency = 0.150
+sub1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+sub1.BorderSizePixel = 0
+sub1.Position = UDim2.new(1.02335167, 0, 0, 0)
+sub1.Size = UDim2.new(0, 180, 0, 486)
+
+OutlineSub1.Name = "OutlineSub1"
+OutlineSub1.Parent = sub1
+OutlineSub1.BackgroundColor3 = Color3.fromRGB(168, 168, 168)
+OutlineSub1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OutlineSub1.BorderSizePixel = 0
+OutlineSub1.Position = UDim2.new(0, 0, 0.0618471988, 0)
+OutlineSub1.Size = UDim2.new(0, 180, 0, 8)
+OutlineSub1.Image = "rbxassetid://1"
+OutlineSub1.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+ARMADURA.Name = "ARMADURA"
+ARMADURA.Parent = sub1
+ARMADURA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ARMADURA.BackgroundTransparency = 1.000
+ARMADURA.BorderColor3 = Color3.fromRGB(45, 45, 45)
+ARMADURA.BorderSizePixel = 0
+ARMADURA.Position = UDim2.new(-0.0949279815, 0, 0.417151421, 0)
+ARMADURA.Size = UDim2.new(0, 217, 0, 19)
+ARMADURA.Font = Enum.Font.Merriweather
+ARMADURA.Text = "ARMADURA"
+ARMADURA.TextColor3 = Color3.fromRGB(52, 96, 255)
+ARMADURA.TextSize = 30.000
+
+PYLON.Name = "PYLON"
+PYLON.Parent = sub1
+PYLON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PYLON.BackgroundTransparency = 1.000
+PYLON.BorderColor3 = Color3.fromRGB(45, 45, 45)
+PYLON.BorderSizePixel = 0
+PYLON.Position = UDim2.new(-0.117150202, 0, 0.14505218, 0)
+PYLON.Size = UDim2.new(0, 217, 0, 19)
+PYLON.Font = Enum.Font.Merriweather
+PYLON.Text = "PYLON"
+PYLON.TextColor3 = Color3.fromRGB(199, 57, 255)
+PYLON.TextSize = 30.000
+
+PARASITA2.Name = "PARASITA 2"
+PARASITA2.Parent = sub1
+PARASITA2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+PARASITA2.BackgroundTransparency = 0.450
+PARASITA2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PARASITA2.BorderSizePixel = 0
+PARASITA2.Position = UDim2.new(0.0794731975, 0, 0.54459697, 0)
+PARASITA2.Size = UDim2.new(0, 153, 0, 23)
+PARASITA2.Font = Enum.Font.Michroma
+PARASITA2.Text = "PARASITA 2"
+PARASITA2.TextColor3 = Color3.fromRGB(251, 255, 35)
+PARASITA2.TextSize = 20.000
+PARASITA2.TextStrokeColor3 = Color3.fromRGB(35, 7, 245)
+
+PARASITA1.Name = "PARASITA 1"
+PARASITA1.Parent = sub1
+PARASITA1.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+PARASITA1.BackgroundTransparency = 0.450
+PARASITA1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PARASITA1.BorderSizePixel = 0
+PARASITA1.Position = UDim2.new(0.0822808146, 0, 0.474853396, 0)
+PARASITA1.Size = UDim2.new(0, 153, 0, 23)
+PARASITA1.Font = Enum.Font.Michroma
+PARASITA1.Text = "PARASITA 1"
+PARASITA1.TextColor3 = Color3.fromRGB(251, 255, 35)
+PARASITA1.TextSize = 20.000
+PARASITA1.TextStrokeColor3 = Color3.fromRGB(35, 7, 245)
+
+ESGOTO.Name = "ESGOTO"
+ESGOTO.Parent = sub1
+ESGOTO.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ESGOTO.BackgroundTransparency = 0.450
+ESGOTO.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESGOTO.BorderSizePixel = 0
+ESGOTO.Position = UDim2.new(0.0711703822, 0, 0.351031899, 0)
+ESGOTO.Size = UDim2.new(0, 153, 0, 23)
+ESGOTO.Font = Enum.Font.Michroma
+ESGOTO.Text = "ESGOTO"
+ESGOTO.TextColor3 = Color3.fromRGB(251, 255, 35)
+ESGOTO.TextSize = 20.000
+ESGOTO.TextStrokeColor3 = Color3.fromRGB(35, 7, 245)
+
+PORCO.Name = "PORCO"
+PORCO.Parent = sub1
+PORCO.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+PORCO.BackgroundTransparency = 0.450
+PORCO.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PORCO.BorderSizePixel = 0
+PORCO.Position = UDim2.new(0.065614827, 0, 0.284257174, 0)
+PORCO.Size = UDim2.new(0, 153, 0, 23)
+PORCO.Font = Enum.Font.Michroma
+PORCO.Text = "PORCO"
+PORCO.TextColor3 = Color3.fromRGB(251, 255, 35)
+PORCO.TextSize = 20.000
+PORCO.TextStrokeColor3 = Color3.fromRGB(35, 7, 245)
+
+MINA.Name = "MINA"
+MINA.Parent = sub1
+MINA.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+MINA.BackgroundTransparency = 0.450
+MINA.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MINA.BorderSizePixel = 0
+MINA.Position = UDim2.new(0.0739786774, 0, 0.220686421, 0)
+MINA.Size = UDim2.new(0, 153, 0, 23)
+MINA.Font = Enum.Font.Michroma
+MINA.Text = "MINA"
+MINA.TextColor3 = Color3.fromRGB(251, 255, 35)
+MINA.TextSize = 20.000
+MINA.TextStrokeColor3 = Color3.fromRGB(35, 7, 245)
+
+PARASITA3.Name = "PARASITA 3"
+PARASITA3.Parent = sub1
+PARASITA3.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+PARASITA3.BackgroundTransparency = 0.450
+PARASITA3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PARASITA3.BorderSizePixel = 0
+PARASITA3.Position = UDim2.new(0.0794731975, 0, 0.617544532, 0)
+PARASITA3.Size = UDim2.new(0, 153, 0, 23)
+PARASITA3.Font = Enum.Font.Michroma
+PARASITA3.Text = "PARASITA 3"
+PARASITA3.TextColor3 = Color3.fromRGB(251, 255, 35)
+PARASITA3.TextSize = 20.000
+PARASITA3.TextStrokeColor3 = Color3.fromRGB(35, 7, 245)
+
+Symbol.Name = "Symbol"
+Symbol.Parent = sub1
+Symbol.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Symbol.BackgroundTransparency = 1.000
+Symbol.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Symbol.BorderSizePixel = 0
+Symbol.Position = UDim2.new(0.216666669, 0, 0.732893169, 0)
+Symbol.Size = UDim2.new(0, 105, 0, 89)
+Symbol.Image = "rbxassetid://17274798033"
+
+ACTIVATOR.Name = "ACTIVATOR"
+ACTIVATOR.Parent = sub1
+ACTIVATOR.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ACTIVATOR.BackgroundTransparency = 1.000
+ACTIVATOR.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ACTIVATOR.BorderSizePixel = 0
+ACTIVATOR.Position = UDim2.new(0.791109204, 0, -0.0085001504, 0)
+ACTIVATOR.Size = UDim2.new(0, 37, 0, 37)
+ACTIVATOR.Image = "rbxassetid://13321848320"
+
+ACTIVATOR2.Name = "ACTIVATOR2"
+ACTIVATOR2.Parent = sub1
+ACTIVATOR2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ACTIVATOR2.BackgroundTransparency = 1.000
+ACTIVATOR2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ACTIVATOR2.BorderSizePixel = 0
+ACTIVATOR2.Position = UDim2.new(0.585555673, 0, -0.0085001504, 0)
+ACTIVATOR2.Size = UDim2.new(0, 37, 0, 37)
+ACTIVATOR2.Image = "rbxassetid://6129432001"
+
+Locations.Name = "Locations"
+Locations.Parent = sub1
+Locations.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Locations.BackgroundTransparency = 1.000
+Locations.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Locations.BorderSizePixel = 0
+Locations.Position = UDim2.new(0.102777779, 0, 0.000987676904, 0)
+Locations.Size = UDim2.new(0, 27, 0, 30)
+Locations.Image = "rbxassetid://17824309485"
+
+Countrys.Name = "Countrys"
+Countrys.Parent = sub1
+Countrys.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Countrys.BackgroundTransparency = 1.000
+Countrys.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Countrys.BorderSizePixel = 0
+Countrys.Position = UDim2.new(0.408333331, 0, 0.000987676904, 0)
+Countrys.Size = UDim2.new(0, 27, 0, 30)
+Countrys.Image = "rbxassetid://18870359747"
+
+Places.Name = "Places"
+Places.Parent = MainFrame
+Places.Active = true
+Places.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Places.BackgroundTransparency = 1.000
+Places.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Places.BorderSizePixel = 0
+Places.Position = UDim2.new(0.162087917, 0, 0.116327167, 0)
+Places.Size = UDim2.new(0, 600, 0, 412)
+
+category.Name = "category"
+category.Parent = Places
+category.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+category.BackgroundTransparency = 1.000
+category.BorderColor3 = Color3.fromRGB(0, 0, 0)
+category.BorderSizePixel = 0
+category.Position = UDim2.new(0.211538464, 0, 0.222591355, 0)
+category.Size = UDim2.new(0, 560, 0, 60)
+category.Visible = false
+
+UIGridLayout.Parent = category
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellSize = UDim2.new(0, 130, 0, 20)
+UIGridLayout.FillDirectionMaxCells = 5
+
+layout_button.Name = "layout_button"
+layout_button.Parent = Places
+layout_button.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+layout_button.BackgroundTransparency = 0.450
+layout_button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+layout_button.BorderSizePixel = 0
+layout_button.Size = UDim2.new(0, 100, 0, 63)
+layout_button.Visible = false
+layout_button.Font = Enum.Font.Michroma
+layout_button.Text = ""
+layout_button.TextColor3 = Color3.fromRGB(251, 255, 35)
+layout_button.TextScaled = true
+layout_button.TextSize = 20.000
+layout_button.TextStrokeColor3 = Color3.fromRGB(35, 7, 245)
+layout_button.TextWrapped = true
+
+title.Name = "title"
+title.Parent = Places
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.BorderColor3 = Color3.fromRGB(45, 45, 45)
+title.BorderSizePixel = 0
+title.Position = UDim2.new(0.19319807, 0, 0.116327196, 0)
+title.Size = UDim2.new(0, 91, 0, 19)
+title.Visible = false
+title.Font = Enum.Font.Kalam
+title.Text = "LUGARES"
+title.TextColor3 = Color3.fromRGB(255, 151, 24)
+title.TextSize = 30.000
+
+UIListLayout.Parent = Places
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+APECITY.Name = "APECITY"
+APECITY.Parent = MainFrame
+APECITY.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+APECITY.BackgroundTransparency = 0.450
+APECITY.BorderColor3 = Color3.fromRGB(0, 0, 0)
+APECITY.BorderSizePixel = 0
+APECITY.Position = UDim2.new(0.0273517147, 0, 0.185324281, 0)
+APECITY.Size = UDim2.new(0, 60, 0, 57)
+APECITY.Font = Enum.Font.Michroma
+APECITY.Text = "X"
+APECITY.TextColor3 = Color3.fromRGB(251, 255, 35)
+APECITY.TextSize = 40.000
+APECITY.TextStrokeColor3 = Color3.fromRGB(35, 7, 245)
+
+SHIELDS.Name = "SHIELDS"
+SHIELDS.Parent = MainFrame
+SHIELDS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SHIELDS.BackgroundTransparency = 1.000
+SHIELDS.BorderColor3 = Color3.fromRGB(45, 45, 45)
+SHIELDS.BorderSizePixel = 0
+SHIELDS.Position = UDim2.new(0.00961538497, 0, 0.331648111, 0)
+SHIELDS.Size = UDim2.new(0, 85, 0, 19)
+SHIELDS.Font = Enum.Font.Merriweather
+SHIELDS.Text = "BULLET-VEST"
+SHIELDS.TextColor3 = Color3.fromRGB(95, 112, 221)
+SHIELDS.TextSize = 14.000
+
+VEST.Name = "VEST"
+VEST.Parent = MainFrame
+VEST.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+VEST.BackgroundTransparency = 0.450
+VEST.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VEST.BorderSizePixel = 0
+VEST.Position = UDim2.new(0.0259780884, 0, 0.400645196, 0)
+VEST.Size = UDim2.new(0, 60, 0, 57)
+VEST.Font = Enum.Font.Michroma
+VEST.Text = "X"
+VEST.TextColor3 = Color3.fromRGB(251, 255, 35)
+VEST.TextSize = 40.000
+VEST.TextStrokeColor3 = Color3.fromRGB(35, 7, 245)
+
+SCOOTER.Name = "SCOOTER"
+SCOOTER.Parent = MainFrame
+SCOOTER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SCOOTER.BackgroundTransparency = 1.000
+SCOOTER.BorderColor3 = Color3.fromRGB(45, 45, 45)
+SCOOTER.BorderSizePixel = 0
+SCOOTER.Position = UDim2.new(0.00961538497, 0, 0.546968997, 0)
+SCOOTER.Size = UDim2.new(0, 85, 0, 19)
+SCOOTER.Font = Enum.Font.Merriweather
+SCOOTER.Text = "SQUID"
+SCOOTER.TextColor3 = Color3.fromRGB(221, 68, 68)
+SCOOTER.TextSize = 25.000
+
+SQUID.Name = "SQUID"
+SQUID.Parent = MainFrame
+SQUID.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+SQUID.BackgroundTransparency = 0.450
+SQUID.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SQUID.BorderSizePixel = 0
+SQUID.Position = UDim2.new(0.0273517147, 0, 0.620106876, 0)
+SQUID.Size = UDim2.new(0, 60, 0, 57)
+SQUID.Font = Enum.Font.Michroma
+SQUID.Text = "X"
+SQUID.TextColor3 = Color3.fromRGB(251, 255, 35)
+SQUID.TextSize = 40.000
+SQUID.TextStrokeColor3 = Color3.fromRGB(35, 7, 245)
+
+SHIELDPACK.Name = "SHIELD PACK"
+SHIELDPACK.Parent = MainFrame
+SHIELDPACK.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SHIELDPACK.BackgroundTransparency = 1.000
+SHIELDPACK.BorderColor3 = Color3.fromRGB(45, 45, 45)
+SHIELDPACK.BorderSizePixel = 0
+SHIELDPACK.Position = UDim2.new(0.00824175868, 0, 0.764360368, 0)
+SHIELDPACK.Size = UDim2.new(0, 85, 0, 19)
+SHIELDPACK.Font = Enum.Font.Merriweather
+SHIELDPACK.Text = "SHIELD-PACK"
+SHIELDPACK.TextColor3 = Color3.fromRGB(221, 135, 29)
+SHIELDPACK.TextSize = 14.000
+
+SHIELDPACK_2.Name = "SHIELD PACK"
+SHIELDPACK_2.Parent = MainFrame
+SHIELDPACK_2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+SHIELDPACK_2.BackgroundTransparency = 0.450
+SHIELDPACK_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SHIELDPACK_2.BorderSizePixel = 0
+SHIELDPACK_2.Position = UDim2.new(0.0273517147, 0, 0.831287026, 0)
+SHIELDPACK_2.Size = UDim2.new(0, 60, 0, 57)
+SHIELDPACK_2.Font = Enum.Font.Michroma
+SHIELDPACK_2.Text = "X"
+SHIELDPACK_2.TextColor3 = Color3.fromRGB(251, 255, 35)
+SHIELDPACK_2.TextSize = 40.000
+SHIELDPACK_2.TextStrokeColor3 = Color3.fromRGB(35, 7, 245)
+
+BWR.Name = "B/W/R"
+BWR.Parent = MainFrame
+BWR.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BWR.BackgroundTransparency = 1.000
+BWR.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BWR.BorderSizePixel = 0
+BWR.Position = UDim2.new(1.08653855, 0, 0, 0)
+BWR.Size = UDim2.new(0, 27, 0, 30)
+BWR.Image = "rbxassetid://14219539415"
+
+sub2.Name = "sub2"
+sub2.Parent = MainFrame
+sub2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+sub2.BackgroundTransparency = 0.150
+sub2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+sub2.BorderSizePixel = 0
+sub2.Position = UDim2.new(0, 0, 1.03251278, 0)
+sub2.Size = UDim2.new(0, 728, 0, 50)
+
+Infos.Name = "Infos"
+Infos.Parent = sub2
+Infos.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Infos.BackgroundTransparency = 1.000
+Infos.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Infos.Position = UDim2.new(0.0272638928, 0, -0.00048828125, 0)
+Infos.Size = UDim2.new(0, 121, 0, 50)
+Infos.Font = Enum.Font.Unknown
+Infos.Text = "Velocidade Atual"
+Infos.TextColor3 = Color3.fromRGB(251, 255, 35)
+Infos.TextSize = 14.000
+
+Speed.Name = "Speed"
+Speed.Parent = sub2
+Speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Speed.BackgroundTransparency = 1.000
+Speed.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Speed.Position = UDim2.new(0.207477197, 0, -0.0141430665, 0)
+Speed.Size = UDim2.new(0, 53, 0, 50)
+Speed.Font = Enum.Font.Unknown
+Speed.Text = "16"
+Speed.TextColor3 = Color3.fromRGB(140, 64, 255)
+Speed.TextScaled = true
+Speed.TextSize = 15.000
+Speed.TextWrapped = true
+
+Info.Name = "Info"
+Info.Parent = sub2
+Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info.BackgroundTransparency = 1.000
+Info.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Info.Position = UDim2.new(0.307483643, 0, -0.00048828125, 0)
+Info.Size = UDim2.new(0, 121, 0, 50)
+Info.Font = Enum.Font.Unknown
+Info.Text = "Coordenadas Atuais"
+Info.TextColor3 = Color3.fromRGB(251, 255, 35)
+Info.TextSize = 14.000
+
+Coordinates.Name = "Coordinates"
+Coordinates.Parent = sub2
+Coordinates.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Coordinates.BackgroundTransparency = 1.000
+Coordinates.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Coordinates.Position = UDim2.new(0.490444481, 0, -0.0141430665, 0)
+Coordinates.Size = UDim2.new(0, 247, 0, 50)
+Coordinates.Font = Enum.Font.Unknown
+Coordinates.Text = "1000,1000,1000"
+Coordinates.TextColor3 = Color3.fromRGB(140, 64, 255)
+Coordinates.TextScaled = true
+Coordinates.TextSize = 15.000
+Coordinates.TextWrapped = true
+
+sub3.Name = "sub3"
+sub3.Parent = MainFrame
+sub3.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+sub3.BackgroundTransparency = 0.150
+sub3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+sub3.BorderSizePixel = 0
+sub3.Position = UDim2.new(1.02437365, 0, 1.03251278, 0)
+sub3.Size = UDim2.new(0, 180, 0, 50)
+
+TextBox.Parent = sub3
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextBox.Position = UDim2.new(0.100198701, 0, 0.154143065, 0)
+TextBox.Size = UDim2.new(0, 146, 0, 13)
+TextBox.Font = Enum.Font.Michroma
+TextBox.PlaceholderText = "Enter Speed Here"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+TextButton.Parent = sub3
+TextButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextButton.BackgroundTransparency = 0.450
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.100198701, 0, 0.560000002, 0)
+TextButton.Size = UDim2.new(0, 145, 0, 12)
+TextButton.Font = Enum.Font.Michroma
+TextButton.Text = "Aplicar"
+TextButton.TextColor3 = Color3.fromRGB(251, 255, 35)
+TextButton.TextSize = 14.000
+
+-- Scripts:
+
+local function QSHZFIX_fake_script() -- MainTitle.LabelStuff 
+	local script = Instance.new('LocalScript', MainTitle)
+
+	local textLabel = script.Parent
+	local UserInputService = game:GetService("UserInputService")
+	
+	textLabel.Position = UDim2.new(0.373, 0, 0, 0)
+	
+	local symbols = {"@", "#", "$", "%", "&", "!", "*", "^", "?", "~", "+", "-", "="}
+	
+	local function getRandomSymbol()
+		return symbols[math.random(1, #symbols)]
+	end
+	
+	local isShakeEnabled = false
+	
+	local function glitchEffect()
+		local lastGlitchTime = 0
+		while true do
+			if isShakeEnabled then
+				local randomX = math.random(-2, 2)
+				local randomY = math.random(-2, 2)
+				textLabel.Position = UDim2.new(0.373, randomX, 0, randomY)
+			end
+	
+			textLabel.TextTransparency = math.random(0, 3) / 10
+	
+			if tick() - lastGlitchTime >= 10 then
+				lastGlitchTime = tick()
+	
+				local originalText = textLabel.Text
+				local glitchedText = ""
+				local shakeDuration = math.random(0.5, 1)
+				local startTime = tick()
+	
+				while tick() - startTime < shakeDuration do
+					if isShakeEnabled then
+						local randomX = math.random(-5, 5)
+						local randomY = math.random(-5, 5)
+						textLabel.Position = UDim2.new(0.373, randomX, 0, randomY)
+					end
+	
+					glitchedText = ""
+					for i = 1, #originalText do
+						if math.random() < 0.5 then
+							glitchedText = glitchedText .. getRandomSymbol()
+						else
+							glitchedText = glitchedText .. originalText:sub(i, i)
+						end
+					end
+	
+					textLabel.Text = glitchedText
+					wait(0.05)
+				end
+	
+				textLabel.Text = originalText
+			end
+	
+			wait(math.random(0.1, 0.3))
+		end
+	end
+	
+	local function toggleShake(enable)
+		isShakeEnabled = enable
+	end
+	
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then return end
+		if input.KeyCode == Enum.KeyCode.N then
+			isShakeEnabled = not isShakeEnabled
+			print("Shake effect enabled:", isShakeEnabled)
+		end
+	end)
+	
+	glitchEffect()
+end
+coroutine.wrap(QSHZFIX_fake_script)()
+local function XDKJO_fake_script() -- MainFrame.Night 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local InputService = game:GetService("UserInputService")
+	local ContextActionService = game:GetService("ContextActionService")
+	local Lighting = game:GetService("Lighting")
+	
+	-- Variables
+	local nightVisionEnabled = false -- Tracks the state of night vision
+	
+	-- Helper function to toggle Night Vision
+	local function toggleNightVision()
+		nightVisionEnabled = not nightVisionEnabled
+	
+		if nightVisionEnabled then
+			-- Enable Night Vision
+			Lighting.Ambient = Color3.fromRGB(255, 255, 255) -- Bright lighting
+		else
+			-- Disable Night Vision
+			Lighting.Ambient = Color3.fromRGB(0, 0, 0) -- Default/normal lighting
+		end
+	end
+	
+	-- Setup for desktop input (F key)
+	if InputService.KeyboardEnabled then
+		InputService.InputBegan:Connect(function(input, gameProcessed)
+			if gameProcessed then return end -- Ignore input if UI or other game actions are processed
+	
+			if input.KeyCode == Enum.KeyCode.Q then -- Changed to F
+				toggleNightVision()
+			end
+		end)
+	end
+	
+	-- Setup for mobile input
+	if InputService.TouchEnabled then
+		ContextActionService:BindAction("NightVision", function()
+			toggleNightVision()
+			return Enum.ContextActionResult.Pass
+		end, true, "Q") -- Kept the "f" shortcut for mobile for consistency
+	
+		ContextActionService:SetPosition("NightVision", UDim2.new(0.72, -25, 0.20, -25))
+		ContextActionService:SetTitle("NightVision", "Night Vision")
+	end
+end
+coroutine.wrap(XDKJO_fake_script)()
+local function KPLDJJI_fake_script() -- PARASITA2.LocalScript 
+	local script = Instance.new('LocalScript', PARASITA2)
+
+	local teleportButton = script.Parent
+	local teleportCoordinates = Vector3.new(-1799.1085205078125, -226.09930419921875, -1421.229248046875)
+	
+	teleportButton.Text = "2" 
+	
+	teleportButton.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer 
+		local character = player.Character or player.CharacterAdded:Wait() 
+	
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart", 5)
+		if humanoidRootPart then
+			
+			humanoidRootPart.CFrame = CFrame.new(teleportCoordinates)
+			print("Teleported to: ", teleportCoordinates)
+		else
+			warn("HumanoidRootPart not found!")
+		end
+	end)
+end
+coroutine.wrap(KPLDJJI_fake_script)()
+local function WTXA_fake_script() -- PARASITA1.LocalScript 
+	local script = Instance.new('LocalScript', PARASITA1)
+
+	local teleportButton = script.Parent
+	local teleportCoordinates = Vector3.new(-1800.9486083984375, -50.521305084228516, -718.08349609375)
+	
+	teleportButton.Text = "1" 
+	
+	teleportButton.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer 
+		local character = player.Character or player.CharacterAdded:Wait() 
+	
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart", 5)
+		if humanoidRootPart then
+	
+			humanoidRootPart.CFrame = CFrame.new(teleportCoordinates)
+			print("Teleported to: ", teleportCoordinates)
+		else
+			warn("HumanoidRootPart not found!")
+		end
+	end)
+end
+coroutine.wrap(WTXA_fake_script)()
+local function ERIEU_fake_script() -- ESGOTO.LocalScript 
+	local script = Instance.new('LocalScript', ESGOTO)
+
+	local teleportButton = script.Parent
+	local teleportCoordinates = Vector3.new(-1389.5291748046875, -97.98394775390625, -1683.748779296875)
+	
+	teleportButton.Text = "ESGOTO" 
+	
+	teleportButton.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer 
+		local character = player.Character or player.CharacterAdded:Wait() 
+	
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart", 5)
+		if humanoidRootPart then
+	
+			humanoidRootPart.CFrame = CFrame.new(teleportCoordinates)
+			print("Teleported to: ", teleportCoordinates)
+		else
+			warn("HumanoidRootPart not found!")
+		end
+	end)
+end
+coroutine.wrap(ERIEU_fake_script)()
+local function EYZQY_fake_script() -- PORCO.LocalScript 
+	local script = Instance.new('LocalScript', PORCO)
+
+	local teleportButton = script.Parent
+	local teleportCoordinates = Vector3.new(-835.2711791992188, 11.608684539794922, 345.9242858886719)
+	
+	teleportButton.Text = "PORCO" 
+	
+	teleportButton.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer 
+		local character = player.Character or player.CharacterAdded:Wait() 
+	
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart", 5)
+		if humanoidRootPart then
+	
+			humanoidRootPart.CFrame = CFrame.new(teleportCoordinates)
+			print("Teleported to: ", teleportCoordinates)
+		else
+			warn("HumanoidRootPart not found!")
+		end
+	end)
+end
+coroutine.wrap(EYZQY_fake_script)()
+local function NSKNAVJ_fake_script() -- MINA.LocalScript 
+	local script = Instance.new('LocalScript', MINA)
+
+	local teleportButton = script.Parent
+	local teleportCoordinates = Vector3.new(-1553.24462890625, 91.79536437988281, -1176.115478515625)
+	
+	teleportButton.Text = "MINA" 
+	
+	teleportButton.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer 
+		local character = player.Character or player.CharacterAdded:Wait() 
+	
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart", 5)
+		if humanoidRootPart then
+	
+			humanoidRootPart.CFrame = CFrame.new(teleportCoordinates)
+			print("Teleported to: ", teleportCoordinates)
+		else
+			warn("HumanoidRootPart not found!")
+		end
+	end)
+end
+coroutine.wrap(NSKNAVJ_fake_script)()
+local function SHTC_fake_script() -- PARASITA3.LocalScript 
+	local script = Instance.new('LocalScript', PARASITA3)
+
+	local teleportButton = script.Parent
+	local teleportCoordinates = Vector3.new(-845.694091796875, 313.52301025390625, -1373.893310546875)
+	
+	teleportButton.Text = "3" 
+	
+	teleportButton.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer 
+		local character = player.Character or player.CharacterAdded:Wait() 
+	
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart", 5)
+		if humanoidRootPart then
+	
+			humanoidRootPart.CFrame = CFrame.new(teleportCoordinates)
+			print("Teleported to: ", teleportCoordinates)
+		else
+			warn("HumanoidRootPart not found!")
+		end
+	end)
+end
+coroutine.wrap(SHTC_fake_script)()
+local function LFHNP_fake_script() -- sub1.Viewer 
+	local script = Instance.new('LocalScript', sub1)
+
+	local activatorButton = script.Parent:FindFirstChild("ACTIVATOR")
+	
+	local espEnabled = false
+	local player = game.Players.LocalPlayer
+	
+	local function createESPForNPC(npc)
+		
+		if not npc:FindFirstChild("HumanoidRootPart") then
+			npc:WaitForChild("HumanoidRootPart")
+		end
+	
+		if npc == player.Character then
+			return
+		end
+	
+		-- Highlight
+		local highlight = Instance.new("Highlight")
+		highlight.Name = "ESPHighlight"
+		highlight.FillColor = Color3.new(1, 0, 0)
+		highlight.FillTransparency = 0.5
+		highlight.OutlineColor = Color3.new(1, 1, 1)
+		highlight.OutlineTransparency = 0
+	
+		highlight.Parent = npc
+	end
+	
+	local function handleNPC(npc)
+		if espEnabled then
+			createESPForNPC(npc)
+		end
+	end
+	
+	local function toggleESP()
+		espEnabled = not espEnabled
+	
+		if espEnabled then
+	
+			for _, npc in ipairs(game.Workspace:GetChildren()) do
+				if npc:IsA("Model") and npc:FindFirstChild("HumanoidRootPart") then
+					handleNPC(npc)
+				end
+			end
+	
+			game.Workspace.ChildAdded:Connect(function(child)
+				if child:IsA("Model") and child:FindFirstChild("HumanoidRootPart") then
+					handleNPC(child)
+				end
+			end)
+		else
+	
+			for _, npc in ipairs(game.Workspace:GetChildren()) do
+				if npc:IsA("Model") then
+					local highlight = npc:FindFirstChild("ESPHighlight")
+					if highlight then
+						highlight:Destroy()
+					end
+				end
+			end
+		end
+	end
+	
+	activatorButton.MouseButton1Click:Connect(function()
+		local hasPlayedSound = false
+	
+	if not hasPlayedSound then
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://1807494902"
+		sound.Volume = 0.3
+		sound.Parent = game.Workspace
+		toggleESP()
+		sound:Play()
+		hasPlayedSound = true
+	
+		sound.Ended:Connect(function()
+			sound:Destroy()
+		
+			end)
+		end
+	end)
+end
+coroutine.wrap(LFHNP_fake_script)()
+local function EVGXMWV_fake_script() -- sub1.ViewerPlayer 
+	local script = Instance.new('LocalScript', sub1)
+
+	local button = script.Parent:FindFirstChild("ACTIVATOR2")
+	
+	local npcTag = "NPC"  
+	local espEnabled = false
+	local player = game.Players.LocalPlayer
+	local espObjects = {}
+	
+	local function createESP(npc)
+	
+		if not npc:FindFirstChild("UpperTorso") or not npc:FindFirstChild("Head") then
+			return  
+		end
+	
+		local highlight = Instance.new("Highlight")
+		highlight.Name = "ESPHighlight"
+		highlight.FillColor = Color3.new(1, 1, 0.117647)
+		highlight.FillTransparency = 0.5
+		highlight.OutlineColor = Color3.new(0.32549, 0.0509804, 0.462745)
+		highlight.OutlineTransparency = 0
+		highlight.Adornee = npc.UpperTorso
+		highlight.Parent = npc
+	
+		if not espObjects[npc] then
+			local billboardGui = Instance.new("BillboardGui")
+			billboardGui.Adornee = npc.Head
+			billboardGui.Parent = npc
+			billboardGui.Size = UDim2.new(0, 100, 0, 50)
+			billboardGui.StudsOffset = Vector3.new(0, 2, 0)
+			billboardGui.AlwaysOnTop = true
+	
+			local nameLabel = Instance.new("TextLabel")
+			nameLabel.Parent = billboardGui
+			nameLabel.Text = npc.Name
+			nameLabel.Size = UDim2.new(1, 0, 1, 0)
+			nameLabel.BackgroundTransparency = 1
+			nameLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+			nameLabel.TextSize = 16
+			nameLabel.TextStrokeTransparency = 0.3
+	
+			espObjects[npc] = billboardGui
+		end
+	end
+	
+	local function detectNPCs()
+		for _, obj in pairs(workspace:GetChildren()) do
+			if obj:IsA("Model") and obj:FindFirstChild("Humanoid") and obj:FindFirstChild("Head") and obj:FindFirstChild("UpperTorso") then
+				if obj.Humanoid.Health > 0 then
+					createESP(obj)
+				end
+			end
+		end
+	end
+	
+	local function disableAllESPs()
+		for _, npc in pairs(workspace:GetChildren()) do
+			if npc:IsA("Model") then
+	
+				local billboardGui = espObjects[npc]
+				if billboardGui then
+					billboardGui.Enabled = false
+				end
+	
+				local highlight = npc:FindFirstChild("ESPHighlight")
+				if highlight then
+					highlight:Destroy()
+				end
+			end
+		end
+	end
+	
+	local function enableAllESPs()
+		for _, npc in pairs(workspace:GetChildren()) do
+			if npc:IsA("Model") then
+	
+				local billboardGui = espObjects[npc]
+				if billboardGui then
+					billboardGui.Enabled = true
+				end
+	
+				if not npc:FindFirstChild("ESPHighlight") then
+					createESP(npc)
+				end
+			end
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		espEnabled = not espEnabled
+	
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://462606062"
+		sound.Volume = 0.3
+		sound.Parent = game.Workspace
+		sound:Play()
+	
+		sound.Ended:Connect(function()
+			sound:Destroy()
+		end)
+	
+		if espEnabled then
+			detectNPCs()
+			enableAllESPs()
+		else
+			disableAllESPs()
+		end
+	end)
+end
+coroutine.wrap(EVGXMWV_fake_script)()
+local function WXOV_fake_script() -- Locations.Color 
+	local script = Instance.new('LocalScript', Locations)
+
+	-- Waypoints and their properties
+	local waypoints = {
+		WATCHTOWER = {position = Vector3.new(-663.7, 137.84, -287.5), color = Color3.fromRGB(0, 0, 255)},
+		RADIO = {position = Vector3.new(-1053.97, 505.71, -1424.82), color = Color3.fromRGB(255, 0, 0)},
+		OBSERVATORIO = {position = Vector3.new(474.57, 162.95, -1216.43), color = Color3.fromRGB(0, 255, 0)},
+		NAVIO = {position = Vector3.new(-385.84, 38.56, 957.79), color = Color3.fromRGB(255, 255, 0)},
+		LOTUS = {position = Vector3.new(-2443.73, -825.24, -519.11), color = Color3.fromRGB(255, 165, 0)},
+		LAB = {position = Vector3.new(-835.27, 11.61, 345.92), color = Color3.fromRGB(128, 0, 128)},
+		HANGAR = {position = Vector3.new(-1626.55, 25.54, -2350.83), color = Color3.fromRGB(0, 255, 255)},
+		DRONE = {position = Vector3.new(-113.46, 244.67, -2795.40), color = Color3.fromRGB(255, 105, 180)},
+		DOCAS = {position = Vector3.new(-2022.81, 5.88, -1575.86), color = Color3.fromRGB(0, 128, 128)},
+		BUNGALOW = {position = Vector3.new(-292.18, -5.53, -2373.92), color = Color3.fromRGB(255, 69, 0)},
+		ARMAZEM = {position = Vector3.new(-853.33, 67.36, -570.57), color = Color3.fromRGB(75, 0, 130)},
+		MILITARYCAMP = {position = Vector3.new(-1030.28, 266.85, -1807.54), color = Color3.fromRGB(0, 100, 0)},
+		FLAUTA = {position = Vector3.new(-1252.80, -596.82, -1677.67), color = Color3.fromRGB(255, 222, 173)},
+		VIOLAO = {position = Vector3.new(-381.65, -20.18, 1024.60), color = Color3.fromRGB(255, 182, 193)},
+		BATERIA = {position = Vector3.new(-416.51, -3.48, -2666.26), color = Color3.fromRGB(139, 69, 19)},
+		GERADOR = {position = Vector3.new(507.67, 1.68, -507.64), color = Color3.fromRGB(128, 128, 0)},
+		ESTUFA = {position = Vector3.new(-1341.07, 310.38, -1209.02), color = Color3.fromRGB(34, 139, 34)},
+		LAIR = {position = Vector3.new(-1668.81, -13.47, -531.68), color = Color3.fromRGB(47, 79, 79)},
+		ARCHIVE = {position = Vector3.new(-1955.68, -201.98, -1248.94), color = Color3.fromRGB(0, 0, 0)},
+		TRANSPORTER = {position = Vector3.new(-1325.35, 111.61, -1406.87), color = Color3.fromRGB(255, 255, 255)},
+		BUNKER = {position = Vector3.new(-1374.95, 180.94, -1500.87), color = Color3.fromRGB(105, 105, 105)},
+		FAROL = {position = Vector3.new(-1552.98, 176.95, -198.22), color = Color3.fromRGB(250, 128, 114)},
+		BALAO = {position = Vector3.new(-1051.51, 169.34, -3447.59), color = Color3.fromRGB(210, 105, 30)},
+		AVIAO = {position = Vector3.new(-1986.23, 205.25, -475.74), color = Color3.fromRGB(123, 104, 238)},
+		BARCO = {position = Vector3.new(-2209.04, -0.85, -1497.05), color = Color3.fromRGB(30, 144, 255)},
+		PORTAL = {position = Vector3.new(-2226.80, -174.44, -1579.84), color = Color3.fromRGB(46, 139, 87)},
+		ARTEFATO_A = {position = Vector3.new(-1361.10, -456.71, -1571.41), color = Color3.fromRGB(152, 251, 152)},
+		ARTEFATO_B = {position = Vector3.new(1399.90, -248.66, -1851.49), color = Color3.fromRGB(255, 248, 220)},
+		ARTEFATO_C = {position = Vector3.new(-755.75, 123.14, -3165.81), color = Color3.fromRGB(70, 130, 180)},
+		ARTEFATO_D = {position = Vector3.new(-1767.31, -189.90, -1294.66), color = Color3.fromRGB(72, 61, 139)},
+		MARMORE_1 = {position = Vector3.new(-980.86, -2.67, -1625.13), color = Color3.fromRGB(112, 128, 144)},
+		MARMORE_2 = {position = Vector3.new(-1248.98, -42.88, -1015.32), color = Color3.fromRGB(0, 255, 127)},
+		MARMORE_3 = {position = Vector3.new(-1608.23, -46.68, -1557.08), color = Color3.fromRGB(255, 215, 0)},
+		OLHOS_DOS_MARMORES = {position = Vector3.new(-895.14, -74.41, -1716.20), color = Color3.fromRGB(245, 222, 179)},
+	}
+	
+	-- Player reference
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local rootPart = character:WaitForChild("HumanoidRootPart")
+	
+	-- Folder for waypoints in Workspace
+	local folder = Instance.new("Folder")
+	folder.Name = "ClientWaypoints"
+	folder.Parent = workspace
+	
+	-- Function to create waypoints
+	local function createWaypoint(name, data)
+		-- Create an invisible part for positioning
+		local part = Instance.new("Part")
+		part.Name = name
+		part.Size = Vector3.new(1, 1, 1)
+		part.Position = data.position
+		part.Anchored = true
+		part.Transparency = 1
+		part.CanCollide = false
+		part.Parent = folder
+	
+		-- BillboardGui for the UI
+		local billboard = Instance.new("BillboardGui")
+		billboard.Name = "Billboard"
+		billboard.Size = UDim2.new(0, 100, 0, 100)
+		billboard.AlwaysOnTop = true
+		billboard.StudsOffset = Vector3.new(0, 3, 0)
+		billboard.Adornee = part
+		billboard.Parent = part
+	
+		-- Name Label
+		local nameLabel = Instance.new("TextLabel")
+		nameLabel.Text = name
+		nameLabel.Font = Enum.Font.SourceSansBold
+		nameLabel.TextSize = 14
+		nameLabel.TextColor3 = data.color
+		nameLabel.BackgroundTransparency = 1 -- Fully transparent background
+		nameLabel.Size = UDim2.new(1, 0, 0.2, 0)
+		nameLabel.Position = UDim2.new(0, 0, 0.8, 0) -- Position below the center
+		nameLabel.Parent = billboard
+	
+		return part
+	end
+	
+	-- Create all waypoints
+	for name, data in pairs(waypoints) do
+		createWaypoint(name, data)
+	end
+	
+	-- Toggle visibility
+	local waypointsVisible = false
+	
+	local function toggleWaypointsVisibility(visible)
+		for _, waypoint in pairs(folder:GetChildren()) do
+			local billboard = waypoint:FindFirstChild("Billboard")
+			if billboard then
+				for _, guiElement in pairs(billboard:GetChildren()) do
+					if guiElement:IsA("GuiObject") then
+						guiElement.Visible = visible
+					end
+				end
+			end
+		end
+	end
+	
+	-- Ensure waypoints are visible initially
+	toggleWaypointsVisibility(false)
+	
+	-- Toggle visibility using the button
+	script.Parent.MouseButton1Click:Connect(function()
+		waypointsVisible = not waypointsVisible
+		toggleWaypointsVisibility(waypointsVisible)
+	end)
+end
+coroutine.wrap(WXOV_fake_script)()
+local function HSGWET_fake_script() -- Countrys.LocalScript 
+	local script = Instance.new('LocalScript', Countrys)
+
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local head = character:WaitForChild("Head")
+	
+	-- Wait until the LocalizationService is available
+	local success, country = pcall(function()
+		return game.LocalizationService:GetCountryRegionForPlayerAsync(player)
+	end)
+	
+	local locale = player.LocaleId
+	
+	local playerGui = player:WaitForChild("PlayerGui")
+	
+	if not success then
+		warn("Failed to get country region: ", country)
+	end
+	
+	local function getFlagFromCountry(country)
+		local countryToFlag = {
+			-- A
+			["AF"] = "🇦🇫", ["AX"] = "🇦🇽", ["AL"] = "🇦🇱", ["DZ"] = "🇩🇿", ["AS"] = "🇦🇸",
+			["AD"] = "🇦🇩", ["AO"] = "🇦🇴", ["AI"] = "🇦🇮", ["AQ"] = "🇦🇶", ["AG"] = "🇦🇬",
+			["AR"] = "🇦🇷", ["AM"] = "🇦🇲", ["AW"] = "🇦🇼", ["AU"] = "🇦🇺", ["AT"] = "🇦🇹",
+			["AZ"] = "🇦🇿",
+	
+			-- B
+			["BS"] = "🇧🇸", ["BH"] = "🇧🇭", ["BD"] = "🇧🇩", ["BB"] = "🇧🇧", ["BY"] = "🇧🇾",
+			["BE"] = "🇧🇪", ["BZ"] = "🇧🇿", ["BJ"] = "🇧🇯", ["BM"] = "🇧🇲", ["BT"] = "🇧🇹",
+			["BO"] = "🇧🇴", ["BQ"] = "🇧🇶", ["BA"] = "🇧🇦", ["BW"] = "🇧🇼", ["BV"] = "🇧🇻",
+			["BR"] = "🇧🇷", ["IO"] = "🇮🇴", ["BN"] = "🇧🇳", ["BG"] = "🇧🇬", ["BF"] = "🇧🇫",
+			["BI"] = "🇧🇮",
+	
+			-- C
+			["KH"] = "🇰🇭", ["CM"] = "🇨🇲", ["CA"] = "🇨🇦", ["CV"] = "🇨🇻", ["KY"] = "🇰🇾",
+			["CF"] = "🇨🇫", ["TD"] = "🇹🇩", ["CL"] = "🇨🇱", ["CN"] = "🇨🇳", ["CX"] = "🇨🇽",
+			["CC"] = "🇨🇨", ["CO"] = "🇨🇴", ["KM"] = "🇰🇲", ["CG"] = "🇨🇬", ["CD"] = "🇨🇩",
+			["CK"] = "🇨🇰", ["CR"] = "🇨🇷", ["CI"] = "🇨🇮", ["HR"] = "🇭🇷", ["CU"] = "🇨🇺",
+			["CW"] = "🇨🇼", ["CY"] = "🇨🇾", ["CZ"] = "🇨🇿",
+	
+			-- D
+			["DK"] = "🇩🇰", ["DJ"] = "🇩🇯", ["DM"] = "🇩🇲", ["DO"] = "🇩🇴",
+	
+			-- E
+			["EC"] = "🇪🇨", ["EG"] = "🇪🇬", ["SV"] = "🇸🇻", ["GQ"] = "🇬🇶", ["ER"] = "🇪🇷",
+			["EE"] = "🇪🇪", ["SZ"] = "🇸🇿", ["ET"] = "🇪🇹",
+	
+			-- F
+			["FK"] = "🇫🇰", ["FO"] = "🇫🇴", ["FJ"] = "🇫🇯", ["FI"] = "🇫🇮", ["FR"] = "🇫🇷",
+	
+			-- G
+			["GF"] = "🇬🇫", ["PF"] = "🇵🇫", ["TF"] = "🇹🇫", ["GA"] = "🇬🇦", ["GM"] = "🇬🇲",
+			["GE"] = "🇬🇪", ["DE"] = "🇩🇪", ["GH"] = "🇬🇭", ["GI"] = "🇬🇮", ["GR"] = "🇬🇷",
+			["GL"] = "🇬🇱", ["GD"] = "🇬🇩", ["GP"] = "🇬🇵", ["GU"] = "🇬🇺", ["GT"] = "🇬🇹",
+			["GG"] = "🇬🇬", ["GN"] = "🇬🇳", ["GW"] = "🇬🇼", ["GY"] = "🇬🇾",
+	
+			-- H
+			["HT"] = "🇭🇹", ["HM"] = "🇭🇲", ["VA"] = "🇻🇦", ["HN"] = "🇭🇳", ["HK"] = "🇭🇰",
+			["HU"] = "🇭🇺",
+	
+			-- I
+			["IS"] = "🇮🇸", ["IN"] = "🇮🇳", ["ID"] = "🇮🇩", ["IR"] = "🇮🇷", ["IQ"] = "🇮🇶",
+			["IE"] = "🇮🇪", ["IM"] = "🇮🇲", ["IL"] = "🇮🇱", ["IT"] = "🇮🇹",
+	
+			-- J
+			["JM"] = "🇯🇲", ["JP"] = "🇯🇵", ["JE"] = "🇯🇪", ["JO"] = "🇯🇴",
+	
+			-- K
+			["KZ"] = "🇰🇿", ["KE"] = "🇰🇪", ["KI"] = "🇰🇮", ["KP"] = "🇰🇵", ["KR"] = "🇰🇷",
+			["KW"] = "🇰🇼", ["KG"] = "🇰🇬",
+	
+			-- L
+			["LA"] = "🇱🇦", ["LV"] = "🇱🇻", ["LB"] = "🇱🇧", ["LS"] = "🇱🇸", ["LR"] = "🇱🇷",
+			["LY"] = "🇱🇾", ["LI"] = "🇱🇮", ["LT"] = "🇱🇹", ["LU"] = "🇱🇺",
+	
+			-- M
+			["MO"] = "🇲🇴", ["MG"] = "🇲🇬", ["MW"] = "🇲🇼", ["MY"] = "🇲🇾", ["MV"] = "🇲🇻",
+			["ML"] = "🇲🇱", ["MT"] = "🇲🇹", ["MH"] = "🇲🇭", ["MQ"] = "🇲🇶", ["MR"] = "🇲🇷",
+			["MU"] = "🇲🇺", ["YT"] = "🇾🇹", ["MX"] = "🇲🇽", ["FM"] = "🇫🇲", ["MD"] = "🇲🇩",
+			["MC"] = "🇲🇨", ["MN"] = "🇲🇳", ["ME"] = "🇲🇪", ["MS"] = "🇲🇸", ["MA"] = "🇲🇦",
+			["MZ"] = "🇲🇿", ["MM"] = "🇲🇲",
+	
+			-- N
+			["NA"] = "🇳🇦", ["NR"] = "🇳🇷", ["NP"] = "🇳🇵", ["NL"] = "🇳🇱", ["NC"] = "🇳🇨",
+			["NZ"] = "🇳🇿", ["NI"] = "🇳🇮", ["NE"] = "🇳🇪", ["NG"] = "🇳🇬", ["NU"] = "🇳🇺",
+			["NF"] = "🇳🇫", ["MK"] = "🇲🇰", ["MP"] = "🇲🇵", ["NO"] = "🇳🇴",
+	
+			-- O
+			["OM"] = "🇴🇲",
+	
+			-- P
+			["PK"] = "🇵🇰", ["PW"] = "🇵🇼", ["PS"] = "🇵🇸", ["PA"] = "🇵🇦", ["PG"] = "🇵🇬",
+			["PY"] = "🇵🇾", ["PE"] = "🇵🇪", ["PH"] = "🇵🇭", ["PN"] = "🇵🇳", ["PL"] = "🇵🇱",
+			["PT"] = "🇵🇹", ["PR"] = "🇵🇷",
+	
+			-- Q
+			["QA"] = "🇶🇦",
+	
+			-- R
+			["RE"] = "🇷🇪", ["RO"] = "🇷🇴", ["RU"] = "🇷🇺", ["RW"] = "🇷🇼",
+	
+			-- S
+			["SH"] = "🇸🇭", ["KN"] = "🇰🇳", ["LC"] = "🇱🇨", ["PM"] = "🇵🇲", ["VC"] = "🇻🇨",
+			["WS"] = "🇼🇸", ["SM"] = "🇸🇲", ["ST"] = "🇸🇹", ["SA"] = "🇸🇦", ["SN"] = "🇸🇳",
+			["RS"] = "🇷🇸", ["SC"] = "🇸🇨", ["SL"] = "🇸🇱", ["SG"] = "🇸🇬", ["SX"] = "🇸🇽",
+			["SK"] = "🇸🇰", ["SI"] = "🇸🇮", ["SB"] = "🇸🇧", ["SO"] = "🇸🇴", ["ZA"] = "🇿🇦",
+			["GS"] = "🇬🇸", ["SS"] = "🇸🇸", ["ES"] = "🇪🇸", ["LK"] = "🇱🇰", ["SD"] = "🇸🇩",
+			["SR"] = "🇸🇷", ["SJ"] = "🇸🇯", ["SE"] = "🇸🇪", ["CH"] = "🇨🇭", ["SY"] = "🇸🇾",
+	
+			-- T
+			["TW"] = "🇹🇼", ["TJ"] = "🇹🇯", ["TZ"] = "🇹🇿", ["TH"] = "🇹🇭", ["TL"] = "🇹🇱",
+			["TG"] = "🇹🇬", ["TK"] = "🇹🇰", ["TO"] = "🇹🇴", ["TT"] = "🇹🇹", ["TN"] = "🇹🇳",
+			["TR"] = "🇹🇷", ["TM"] = "🇹🇲", ["TC"] = "🇹🇨", ["TV"] = "🇹🇻",
+	
+			-- U
+			["UG"] = "🇺🇬", ["UA"] = "🇺🇦", ["AE"] = "🇦🇪", ["GB"] = "🇬🇧", ["US"] = "🇺🇸",
+			["UM"] = "🇺🇲", ["UY"] = "🇺🇾", ["UZ"] = "🇺🇿",
+	
+			-- V
+			["VU"] = "🇻🇺", ["VE"] = "🇻🇪", ["VN"] = "🇻🇳",
+	
+			-- W
+			["WF"] = "🇼🇫",
+	
+			-- Y
+			["YE"] = "🇾🇪",
+	
+			-- Z
+			["ZM"] = "🇿🇲", ["ZW"] = "🇿🇼",
+		}
+		return countryToFlag[country:upper()] or "❓"
+	end
+	
+	-- Create BillboardGui for the current player
+	local billboardGui = Instance.new("BillboardGui")
+	billboardGui.Size = UDim2.new(0, 200, 0, 50)
+	billboardGui.Adornee = head
+	billboardGui.Parent = character
+	billboardGui.Enabled = false
+	
+	billboardGui.StudsOffset = Vector3.new(0, 3, 0)
+	
+	local textLabel = Instance.new("TextLabel")
+	textLabel.Size = UDim2.new(1, 0, 1, 0)
+	textLabel.BackgroundTransparency = 1
+	textLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	textLabel.TextSize = 24
+	textLabel.Font = Enum.Font.SourceSansBold
+	textLabel.Text = getFlagFromCountry(country) .. " " .. locale
+	textLabel.Parent = billboardGui
+	
+	-- Set up the button (ensure it remains functional)
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		billboardGui.Enabled = not billboardGui.Enabled
+	end)
+	
+	-- Show the flag of other players in the same area
+	game.Players.PlayerAdded:Connect(function(otherPlayer)
+		if otherPlayer ~= player then
+			local otherCharacter = otherPlayer.Character or otherPlayer.CharacterAdded:Wait()
+			local otherHead = otherCharacter:WaitForChild("Head")
+	
+			-- Create BillboardGui for other players
+			local otherBillboardGui = Instance.new("BillboardGui")
+			otherBillboardGui.Size = UDim2.new(0, 200, 0, 50)
+			otherBillboardGui.Adornee = otherHead
+			otherBillboardGui.Parent = otherCharacter
+			otherBillboardGui.Enabled = false
+			otherBillboardGui.StudsOffset = Vector3.new(0, 3, 0)
+	
+			local otherTextLabel = Instance.new("TextLabel")
+			otherTextLabel.Size = UDim2.new(1, 0, 1, 0)
+			otherTextLabel.BackgroundTransparency = 1
+			otherTextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+			otherTextLabel.TextSize = 24
+			otherTextLabel.Font = Enum.Font.SourceSansBold
+			local otherCountry = game.LocalizationService:GetCountryRegionForPlayerAsync(otherPlayer)
+			otherTextLabel.Text = getFlagFromCountry(otherCountry) .. " " .. otherPlayer.LocaleId
+			otherTextLabel.Parent = otherBillboardGui
+	
+			otherBillboardGui.Enabled = true
+		end
+	end)
+	
+end
+coroutine.wrap(HSGWET_fake_script)()
+local function PYQCYM_fake_script() -- MainFrame.Teleport 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local places = {
+		Iniciais = {
+			WATCHTOWER = Vector3.new(-663.6989135742188, 137.84002685546875, -287.49700927734375),
+			RADIO = Vector3.new(-1053.97216796875, 505.7073669433594, -1424.8226318359375),
+			OBSERVATORIO = Vector3.new(474.5674743652344, 162.9508056640625, -1216.4254150390625),
+			NAVIO = Vector3.new(-385.8384094238281, 38.55583572387695, 957.79248046875),
+			LOTUS = Vector3.new(-2443.72900390625, -825.2437744140625, -519.1138916015625),
+			LAB = Vector3.new(-835.2711791992188, 11.608684539794922, 345.9242858886719),
+			HANGAR = Vector3.new(-1626.5494384765625, 25.543996810913086, -2350.8310546875),
+			DRONE = Vector3.new(-113.45889282226562, 244.67095947265625, -2795.40478515625),
+			DOCAS = Vector3.new(-2022.810302734375, 5.882205486297607, -1575.8558349609375),
+			BUNGALOW = Vector3.new(-292.18402099609375, -5.529104232788086, -2373.920166015625),
+			ARMAZEM = Vector3.new(-853.3341674804688, 67.35806274414062, -570.5685424804688),
+			MILITARYCAMP = Vector3.new(-1030.2762451171875, 266.8489685058594, -1807.54150390625)
+		},
+		Musica = {
+			FLAUTA = Vector3.new(-1252.7984619140625, -596.82275390625, -1677.671142578125),
+			VIOLAO  = Vector3.new(-381.65478515625, -20.183626174926758, 1024.6026611328125),
+			BATERIA = Vector3.new(-416.5137023925781, -3.477015256881714, -2666.2578125)
+		},
+		Lugar = {
+			GERADOR = Vector3.new(507.67333984375, 1.6812852621078491, -507.6365051269531),
+			ESTUFA = Vector3.new(-1341.0689697265625, 310.38055419921875, -1209.02099609375),
+			LAIR = Vector3.new(-1668.8123779296875, -13.46725082397461, -531.6766357421875),
+			ARCHIVE = Vector3.new(-1955.6805419921875, -201.98011779785156, -1248.94140625),
+			TRANSPORTER = Vector3.new(-1325.35302734375, 111.61395263671875, -1406.8690185546875),
+			BUNKER = Vector3.new(-1374.9488525390625, 180.93661499023438, -1500.872802734375),
+			FAROL = Vector3.new(-1552.9776611328125, 176.94650268554688, -198.21914672851562)
+		},
+		Endings = {
+			BALAO = Vector3.new(-1051.505859375, 169.3422088623047, -3447.594970703125),
+			AVIAO = Vector3.new(-1986.2298583984375, 205.24771118164062, -475.7407531738281),
+			BARCO = Vector3.new(-2209.043701171875, -0.8520355224609375, -1497.051025390625),
+			PORTAL = Vector3.new(-2226.79736328125, -174.444580078125, -1579.8431396484375)
+		},
+		Artefatos = {
+			ARTEFATO_A = Vector3.new(-1361.09912109375, -456.7063903808594, -1571.407470703125),
+			ARTEFATO_B = Vector3.new(1399.8953857421875, -248.65635681152344, -1851.4864501953125),
+			ARTEFATO_C = Vector3.new(-755.7453002929688, 123.14064025878906, -3165.809326171875),
+			ARTEFATO_D = Vector3.new(-1767.3140869140625, -189.89620971679688, -1294.6640625)
+		},
+		Marmores = {
+			MARMORE_1 = Vector3.new(-980.863037109375, -2.6739470958709717, -1625.1317138671875),
+			MARMORE_2 = Vector3.new(-1248.976806640625, -42.8760871887207, -1015.3152465820312),
+			MARMORE_3 = Vector3.new(-1608.229736328125, -46.683082580566406, -1557.076416015625),
+			OLHOS_DOS_MARMORES = Vector3.new( -895.1394653320312, -74.40823364257812, -1716.1995849609375)
+		}
+	}
+	
+	
+	local function count(_table)
+		local total = 0
+		for _, v in pairs(_table) do
+			total += 1
+		end
+		return total
+	end
+	
+	local function sortTableByKey(t)
+		local sortedKeys = {}
+		for k in pairs(t) do
+			table.insert(sortedKeys, k)
+		end
+		table.sort(sortedKeys)
+		local sortedTable = {}
+		for _, k in ipairs(sortedKeys) do
+			sortedTable[k] = t[k]
+		end
+		return sortedTable
+	end
+	
+	local places_frame = script.Parent.Places
+	
+	for category_name, category in pairs(places) do
+		task.wait(0.01)
+		category = sortTableByKey(category)
+		
+		local category_title = places_frame.title:Clone()
+		category_title.Visible = true
+		category_title.Text = category_name
+		category_title.Parent = places_frame
+	
+		local category_frame = places_frame.category:Clone()
+		category_frame.Size = UDim2.new(1, 0, 0, 30 * (count(category) / 4))
+		category_frame.Visible = true
+		category_frame.Parent = places_frame
+		
+		for name, pos in pairs(category) do
+			local button = places_frame.layout_button:Clone()
+			button.Text = name
+			button.Visible = true
+			button.Parent = category_frame
+			
+			button.MouseButton1Click:Connect(function()
+				local player = game.Players.LocalPlayer 
+				local character = player.Character or player.CharacterAdded:Wait() 
+	
+				local humanoidRootPart = character:WaitForChild("HumanoidRootPart", 5)
+				if not humanoidRootPart then
+					return warn("HumanoidRootPart not found!")
+				end
+				
+				humanoidRootPart.CFrame = CFrame.new(pos)
+				print("Teleported to: ", pos)
+			end)
+		end
+	end
+	
+end
+coroutine.wrap(PYQCYM_fake_script)()
+local function CTTGW_fake_script() -- MainFrame.CloseButton 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local userInputService = game:GetService("UserInputService")
+	
+	local currentBind = nil
+	local resetKey = Enum.KeyCode.RightBracket
+	local scriptParent = script.Parent
+	scriptParent.Visible = false
+	
+	-- (blacklist)
+	local blacklistedKeys = {
+		[Enum.KeyCode.Tab] = true,
+		[Enum.KeyCode.Quote] = true,
+		[Enum.KeyCode.Quote] = true,
+		[Enum.KeyCode.CapsLock] = true,
+		[Enum.KeyCode.LeftShift] = true,
+		[Enum.KeyCode.RightShift] = true,
+		[Enum.KeyCode.LeftControl] = true,
+		[Enum.KeyCode.RightControl] = true,
+		[Enum.KeyCode.W] = true,
+		[Enum.KeyCode.A] = true,
+		[Enum.KeyCode.S] = true,
+		[Enum.KeyCode.D] = true,
+		[Enum.KeyCode.M] = true,
+		[Enum.KeyCode.LeftBracket] = true,
+		[Enum.KeyCode.Space] = true,
+		[Enum.KeyCode.Escape] = true,
+		[Enum.KeyCode.Backspace] = true
+	}
+	
+	local screenGui = Instance.new("ScreenGui")
+	screenGui.Name = "BindPromptGui"
+	screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	
+	local frame = Instance.new("Frame")
+	frame.Size = UDim2.new(0.3, 0, 0.2, 0)
+	frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+	frame.AnchorPoint = Vector2.new(0.5, 0.5)
+	frame.BackgroundColor3 = Color3.new(0.2, 0.2, 0.2)
+	frame.BorderSizePixel = 0
+	frame.Parent = screenGui
+	
+	local textLabel = Instance.new("TextLabel")
+	textLabel.Size = UDim2.new(1, 0, 0.6, 0)
+	textLabel.Position = UDim2.new(0, 0, 0.2, 0)
+	textLabel.Text = "Escolha qualquer tecla (menos o mouse ou qualquer tecla que envolve a jogabilidade) para ser sua BIND"
+	textLabel.TextScaled = true
+	textLabel.TextColor3 = Color3.new(1, 1, 1)
+	textLabel.BackgroundTransparency = 1
+	textLabel.Parent = frame
+	
+	-- Adicionando o som
+	local sound = Instance.new("Sound")
+	sound.SoundId = "rbxassetid://1655262564"
+	sound.Volume = 1
+	sound.Looped = false
+	sound.Parent = screenGui -- O som será tocado no Gui
+	
+	local function promptForBind()
+		frame.Visible = true
+		local connection
+		connection = userInputService.InputBegan:Connect(function(input, isProcessed)
+			if isProcessed then return end
+	
+			if input.UserInputType == Enum.UserInputType.Keyboard then
+	
+				if input.KeyCode == Enum.KeyCode.Quote then
+					textLabel.Text = "A tecla ' não pode ser usada pois ela serve para abrir o inventário no Roblox."
+					wait(1.5)
+					textLabel.Text = "Escolha qualquer tecla (menos o mouse ou qualquer tecla que envolve a jogabilidade) para ser sua BIND"
+					return
+				end
+	
+				if blacklistedKeys[input.KeyCode] then
+					textLabel.Text = "Essa tecla é necessária para jogar e não pode ser usada."
+					wait(1.5)
+					textLabel.Text = "Escolha qualquer tecla (menos o mouse ou qualquer tecla que envolve a jogabilidade) para ser sua BIND"
+					return
+				end
+	
+				currentBind = input.KeyCode
+				print("Nova tecla é: " .. tostring(currentBind))
+	
+				game:GetService("StarterGui"):SetCore("SendNotification", {
+					Title = "Aviso";
+					Text = "Menu Carregado. Pressione " .. tostring(input.KeyCode.Name) .. " como sua BIND";
+					Icon = "rbxassetid://16541142603";
+				})
+				
+				-- Tocar o som
+				sound:Play()
+	
+				frame.Visible = false
+				scriptParent.Visible = true
+	
+				connection:Disconnect()
+			else
+				textLabel.Text = "Escolha uma tecla do seu teclado"
+				wait(1)
+				textLabel.Text = "Escolha qualquer tecla (menos o mouse) para ser sua BIND"
+			end
+		end)
+	end
+	
+	promptForBind()
+	
+	userInputService.InputBegan:Connect(function(input, isProcessed)
+		if isProcessed then return end
+	
+		if currentBind and input.KeyCode == currentBind then
+			scriptParent.Visible = not scriptParent.Visible
+		elseif input.KeyCode == resetKey then
+			print("Resetando a tecla BIND...")
+			scriptParent.Visible = false
+			currentBind = nil
+			promptForBind()
+		end
+	end)
+end
+coroutine.wrap(CTTGW_fake_script)()
+local function FLIS_fake_script() -- APECITY.LocalScript 
+	local script = Instance.new('LocalScript', APECITY)
+
+	local teleportButton = script.Parent
+	teleportButton.Text = "X"
+	
+	local teleportCoordinates = {
+		Vector3.new(-354.64971923828125, -38.69834899902344, 1171.4146728515625),
+		Vector3.new(766.4276123046875, -17.989133834838867, -1117.763671875),
+		Vector3.new(-685.798095703125, 149.46075439453125, -1052.0863037109375),
+		Vector3.new(-1581.9991455078125, -6.79750394821167, 999.5809326171875),
+		Vector3.new(-2225.726806640625, -3.4310882091522217, -852.5384521484375)
+	}
+	
+	teleportButton.MouseButton1Click:Connect(function()
+		
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "Aviso";
+			Text = "Isso pode levar varias tentativas se mexa bastante";
+			Icon = "rbxassetid://17432832531";
+		})
+		
+		local player = game.Players.LocalPlayer 
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart", 5) 
+	
+		if not humanoidRootPart then
+			warn("HumanoidRootPart not found!")
+			return
+		end
+	
+		for _, coords in ipairs(teleportCoordinates) do
+			humanoidRootPart.CFrame = CFrame.new(coords)
+			print("Teleported to: ", coords)
+			wait(0.5)
+		end
+	end)
+end
+coroutine.wrap(FLIS_fake_script)()
+local function AGHZRI_fake_script() -- VEST.LocalScript 
+	local script = Instance.new('LocalScript', VEST)
+
+	local teleportButton = script.Parent 
+	teleportButton.Text = "X"
+	
+	local teleportCoordinates = {
+		Vector3.new(-715.4263305664062, -6.315384387969971, 870.6802978515625),
+		Vector3.new(-1955.7611083984375, -203.9578857421875, -1264.7694091796875),
+	}
+	
+	teleportButton.MouseButton1Click:Connect(function()
+		
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "Aviso";
+			Text = "Aperte a letra E estiver sendo teleportado";
+		})
+		
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart", 5)
+	
+		if not humanoidRootPart then
+			warn("HumanoidRootPart not found!")
+			return
+		end
+	
+		for _, coords in ipairs(teleportCoordinates) do
+			humanoidRootPart.CFrame = CFrame.new(coords)
+			print("Teleported to: ", coords)
+			wait(1.5)
+		end
+	end)
+end
+coroutine.wrap(AGHZRI_fake_script)()
+local function TMIZDL_fake_script() -- MainFrame.Verify 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	--//====================================================\\-
+	--||            
+	--||             
+	--||              ISLE 10 NEVER LOSE TEAM  
+	--||
+	--||
+	--\\====================================================//--
+	
+	local hasPlayedSound = false
+	
+	if not hasPlayedSound then
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://642336941"
+		sound.Volume = 0.5
+		sound.Parent = game.Workspace
+	
+		sound:Play()
+		hasPlayedSound = true
+	
+		sound.Ended:Connect(function()
+			sound:Destroy()
+		end)
+	end
+	
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Aviso";
+		Text = "Menu Injetado"; 
+		Icon = "rbxassetid://9368084990";
+	})
+	
+end
+coroutine.wrap(TMIZDL_fake_script)()
+local function AMYXSVX_fake_script() -- SQUID.LocalScript 
+	local script = Instance.new('LocalScript', SQUID)
+
+	local teleportButton = script.Parent 
+	teleportButton.Text = "X" 
+	
+	
+	local teleportCoordinates = {
+		Vector3.new(-426.67535400390625, -247.75685119628906, -582.5526123046875),
+	}
+	
+	teleportButton.MouseButton1Click:Connect(function()
+		
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "Aviso";
+			Text = "Se precisar do shield pack pegue a diving gear e o squid scooter";
+			Icon = "rbxassetid://13333189485";
+		})
+		
+		local player = game.Players.LocalPlayer 
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart", 5)
+	
+		if not humanoidRootPart then
+			warn("HumanoidRootPart not found!")
+			return
+		end
+	
+		for _, coords in ipairs(teleportCoordinates) do
+			humanoidRootPart.CFrame = CFrame.new(coords)
+			print("Teleported to: ", coords)
+			wait(0.5)
+		end
+	end)
+end
+coroutine.wrap(AMYXSVX_fake_script)()
+local function DOYWE_fake_script() -- SHIELDPACK_2.LocalScript 
+	local script = Instance.new('LocalScript', SHIELDPACK_2)
+
+	local teleportButton = script.Parent 
+	teleportButton.Text = "X" 
+	
+	
+	local teleportCoordinate = Vector3.new(-576.6840209960938, -173.32406616210938, -479.9155578613281)
+	
+	local teleportConfirmed = false 
+	
+	teleportButton.MouseButton1Click:Connect(function()
+		
+		if not teleportConfirmed then
+			game:GetService("StarterGui"):SetCore("SendNotification", {
+				Title = "Confirmação";
+				Text = "Você tem certeza que deseja se teleportar, Você morrera se não tiver uma diving gear equipada. Clique novamente para confirmar.";
+				Duration = 10;
+			})
+			teleportConfirmed = true
+		else
+			-- TP
+			local player = game.Players.LocalPlayer
+			local character = player.Character or player.CharacterAdded:Wait()
+			local humanoidRootPart = character:WaitForChild("HumanoidRootPart", 5)
+	
+			if not humanoidRootPart then
+				warn("HumanoidRootPart não encontrado!")
+				return
+			end
+	
+			humanoidRootPart.CFrame = CFrame.new(teleportCoordinate)
+			print("Teletransportado para:", teleportCoordinate)
+	
+			-- WARN
+			game:GetService("StarterGui"):SetCore("SendNotification", {
+				Title = "Aviso";
+				Text = "Você foi teleportado!";
+				Icon = "rbxassetid://5430597512";
+				Duration = 3;
+			})
+		end
+	end)
+end
+coroutine.wrap(DOYWE_fake_script)()
+local function UDDEA_fake_script() -- MainFrame.Warning 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local function createWarningGui(properties)
+		local player = game.Players.LocalPlayer
+		local playerGui = player:WaitForChild("PlayerGui")
+	
+		local screenGui = Instance.new("ScreenGui")
+		screenGui.Name = "WarningScreenGui"
+		screenGui.Parent = playerGui
+	
+		local warningFrame = Instance.new("Frame")
+		warningFrame.Size = properties.Size or UDim2.new(0.5, 0, 0.1, 0)
+		warningFrame.Position = properties.Position or UDim2.new(0.25, 0, -0.1, 0)
+		warningFrame.BackgroundColor3 = properties.BackgroundColor or Color3.fromRGB(47, 49, 54)
+		warningFrame.BackgroundTransparency = properties.BackgroundTransparency or 0
+		warningFrame.BorderSizePixel = properties.BorderSizePixel or 1
+		warningFrame.AnchorPoint = properties.AnchorPoint or Vector2.new(0.5, 0.5)
+		warningFrame.Visible = true
+		warningFrame.Parent = screenGui
+	
+		if properties.RoundedCorners then
+			local cornerRadius = Instance.new("UICorner")
+			cornerRadius.CornerRadius = properties.CornerRadius or UDim.new(0, 12)
+			cornerRadius.Parent = warningFrame
+		end
+	
+		if properties.Shadow then
+			local shadow = Instance.new("Frame")
+			shadow.Size = UDim2.new(1, 10, 1, 10)
+			shadow.Position = UDim2.new(0, -5, 0, -5)
+			shadow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+			shadow.BackgroundTransparency = 0.5
+			shadow.BorderSizePixel = 0
+			shadow.ZIndex = -1
+			shadow.Parent = warningFrame
+		end
+	
+		local warningLabel = Instance.new("TextLabel")
+		warningLabel.Size = UDim2.new(1, 0, 1, 0)
+		warningLabel.Position = UDim2.new(0, 0, 0, 0)
+		warningLabel.TextColor3 = properties.TextColor or Color3.fromRGB(255, 255, 255)
+		warningLabel.TextSize = properties.TextSize or 24
+		warningLabel.TextStrokeTransparency = properties.TextStrokeTransparency or 0.5
+		warningLabel.TextXAlignment = properties.TextXAlignment or Enum.TextXAlignment.Center
+		warningLabel.TextYAlignment = properties.TextYAlignment or Enum.TextYAlignment.Center
+		warningLabel.TextWrapped = properties.TextWrapped or true
+		warningLabel.TextTransparency = properties.TextTransparency or 1
+		warningLabel.Parent = warningFrame
+	
+	
+		local messages = properties.Messages or {
+			"Seja sensato, Seja Livre, Se Divirta.",
+			"Aqueles que sabem!",
+			"Eu tenho o conhecimento 😎",
+			"Não sei oque escrever."
+		}
+		local randomMessage = messages[math.random(1, #messages)]
+		warningLabel.Text = randomMessage
+	
+		local function fadeInLabel()
+			local tweenService = game:GetService("TweenService")
+			local fadeInTween = tweenService:Create(warningLabel, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {TextTransparency = 0})
+			fadeInTween:Play()
+			fadeInTween.Completed:Wait()
+		end
+	
+		local function slideInAndDisappear()
+			local tweenService = game:GetService("TweenService")
+	
+			local slideInTween = tweenService:Create(warningFrame, TweenInfo.new(0.5, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {Position = properties.SlideInPosition or UDim2.new(0.5, 0, 0, 20)})
+			slideInTween:Play()
+			slideInTween.Completed:Wait()
+	
+			fadeInLabel()
+	
+			wait(properties.DisplayTime or 2)
+	
+			local slideOutTween = tweenService:Create(warningFrame, TweenInfo.new(0.5, Enum.EasingStyle.Back, Enum.EasingDirection.In), {Position = properties.SlideOutPosition or UDim2.new(0.5, 0, -0.2, 0)})
+			slideOutTween:Play()
+	
+			slideOutTween.Completed:Wait()
+	
+			screenGui:Destroy()
+		end
+	
+		slideInAndDisappear()
+	end
+	
+	createWarningGui({
+		Size = UDim2.new(0.5, 0, 0.1, 0),
+		Position = UDim2.new(0.25, 0, -0.1, 0),
+		BackgroundColor = Color3.fromRGB(47, 49, 54),
+		TextColor = Color3.fromRGB(255, 255, 255),
+		TextSize = 24,
+		TextTransparency = 1,
+		Shadow = true,
+		RoundedCorners = true,
+		CornerRadius = UDim.new(0, 12),
+		DisplayTime = 2,
+		SlideInPosition = UDim2.new(0.5, 0, 0, 20),
+		SlideOutPosition = UDim2.new(0.5, 0, -0.2, 0),
+		Messages = { 
+			"Seja sensato, Seja Livre, Se Divirta.",
+			"Aqueles que sabem!",
+			"Eu tenho o conhecimento 😎",
+			"Não sei oque escrever."
+		}
+	})
+	
+end
+coroutine.wrap(UDDEA_fake_script)()
+local function CIVG_fake_script() -- BWR.Color 
+	local script = Instance.new('LocalScript', BWR)
+
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	local button = script.Parent
+	local MainFrame = button.Parent.Parent:FindFirstChild("MainFrame")
+	local sub1 = MainFrame and MainFrame:FindFirstChild("sub1")
+	local sub2 = MainFrame and MainFrame:FindFirstChild("sub2")
+	local sub3 = MainFrame and MainFrame:FindFirstChild("sub3")
+	
+	if not MainFrame or not MainFrame:IsA("Frame") then
+		warn("MainFrame not found or is not a Frame")
+		return
+	end
+	
+	local function validateSubframe(subframe, name)
+		if not subframe or not subframe:IsA("Frame") then
+			warn(name .. " not found or is not a Frame")
+			return nil
+		end
+		return subframe
+	end
+	
+	sub1 = validateSubframe(sub1, "sub1")
+	sub2 = validateSubframe(sub2, "sub2")
+	sub3 = validateSubframe(sub3, "sub3")
+	
+	local whiteColor = Color3.new(1, 1, 1) 
+	local blackColor = Color3.new(0, 0, 0)
+	local C2 = "rbxassetid://15606171585"
+	local C1 = "rbxassetid://13492317832"
+	
+	local isWhite = false
+	local isRainbow = false
+	
+	local tweenInfo = TweenInfo.new(
+		1, 
+		Enum.EasingStyle.Sine, 
+		Enum.EasingDirection.InOut 
+	)
+	
+	local function applyColorToFrames(color)
+		MainFrame.BackgroundColor3 = color
+		if sub1 then sub1.BackgroundColor3 = color end
+		if sub2 then sub2.BackgroundColor3 = color end
+		if sub3 then sub3.BackgroundColor3 = color end
+	end
+	
+	local function toggleColor()
+		if isRainbow then
+			isRainbow = false 
+			applyColorToFrames(blackColor)
+			button.Image = C1 
+			return
+		end
+	
+		local targetColor = isWhite and blackColor or whiteColor
+		local newImage = isWhite and C1 or C2
+	
+		TweenService:Create(MainFrame, tweenInfo, {BackgroundColor3 = targetColor}):Play()
+		if sub1 then TweenService:Create(sub1, tweenInfo, {BackgroundColor3 = targetColor}):Play() end
+		if sub2 then TweenService:Create(sub2, tweenInfo, {BackgroundColor3 = targetColor}):Play() end
+		if sub3 then TweenService:Create(sub3, tweenInfo, {BackgroundColor3 = targetColor}):Play() end
+	
+		button.Image = newImage
+		isWhite = not isWhite
+	end
+	
+	local function activateRainbowMode()
+		isRainbow = true
+		local hue = 0
+	
+		local function updateRainbow()
+			hue = (hue + 0.01) % 1 
+			local rainbowColor = Color3.fromHSV(hue, 1, 1) 
+			applyColorToFrames(rainbowColor)
+		end
+	
+		while isRainbow do
+			updateRainbow()
+			wait(0.05) 
+		end
+	end
+	
+	local function toggleRainbowMode()
+		if not isRainbow then
+			button.Image = "rbxassetid://2866597030" 
+			activateRainbowMode()
+		else
+			isRainbow = false -- Stop Rainbow Mode
+			button.Image = "rbxassetid://13492317832" 
+			applyColorToFrames(blackColor)
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		if not isRainbow then
+			toggleColor()
+		else
+			isRainbow = false 
+		end
+	end)
+	
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then
+			return
+		end
+	
+		if input.KeyCode == Enum.KeyCode.Comma then -- BIND
+			toggleRainbowMode()
+		end
+	end)
+end
+coroutine.wrap(CIVG_fake_script)()
+local function XPKSJC_fake_script() -- sub2.Main 
+	local script = Instance.new('LocalScript', sub2)
+
+	--// awesomegeorsome56 - free to use & 100% open source
+	
+	
+	-- loop to roll through every set amount of time and update the text label
+	while wait(0.2) do
+		local player = game.Players.LocalPlayer
+		local humanoidRootPart = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+	
+		if humanoidRootPart then
+			local velocity = humanoidRootPart.Velocity.Magnitude
+			script.Parent.Speed.Text = tostring(math.round(velocity))
+		end
+	end
+end
+coroutine.wrap(XPKSJC_fake_script)()
+local function FDFUJTR_fake_script() -- sub2.LocalScript 
+	local script = Instance.new('LocalScript', sub2)
+
+	local sub2 = script.Parent -- The Frame named "sub2"
+	local infoLabel = sub2:FindFirstChild("Info") or Instance.new("TextLabel", sub2)
+	local coordLabel = sub2:FindFirstChild("Coordinates") or Instance.new("TextLabel", sub2)
+	local plr = game.Players.LocalPlayer
+	
+	-- Setting up the "Info" TextLabel
+	infoLabel.Name = "Info"
+	infoLabel.Text = "Coordenadas Atuais"
+	
+	-- Setting up the "Coordinates" TextLabel
+	coordLabel.Name = "Coordinates"
+	coordLabel.Text = "Aguardando coordenadas..."
+	
+	-- Updating the coordinates in real-time
+	while wait() do
+		if plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") then
+			local x = math.round(plr.Character.HumanoidRootPart.CFrame.Position.X)
+			local y = math.round(plr.Character.HumanoidRootPart.CFrame.Position.Y)
+			local z = math.round(plr.Character.HumanoidRootPart.CFrame.Position.Z)
+			coordLabel.Text = x..", "..y..", "..z
+		end
+	end
+end
+coroutine.wrap(FDFUJTR_fake_script)()
+local function SGLSEV_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		local setspeed = script.Parent.Parent.TextBox.Text
+		local hum = game.Workspace:WaitForChild(player.Name).Humanoid
+		if hum then
+			hum.WalkSpeed = setspeed
+		end
+	end)
+end
+coroutine.wrap(SGLSEV_fake_script)()
+local function KNXOHM_fake_script() -- MainFrame.Drag 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(KNXOHM_fake_script)()
